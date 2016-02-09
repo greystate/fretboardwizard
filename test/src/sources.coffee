@@ -1,1 +1,1 @@
-# @codekit-append "../../app/coffee/component.coffee"
+# @codekit-append "../../app/coffee/chord.coffee"

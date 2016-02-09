@@ -2,7 +2,7 @@
 @app = window.app ? {}
 
 # Main controller for the page's functions
-class AppController
+class FretWizController
 	constructor: () ->
 		@setupThing()
 
@@ -11,8 +11,8 @@ class AppController
 # Start everything when the page is ready
 if typeof $ is "function"
 	$ ->
-		app.controller = new AppController
+		app.controller = new FretWizController
 
 
 # Imports
-# @codekit-append "component.coffee"
+# @codekit-append "chord.coffee"

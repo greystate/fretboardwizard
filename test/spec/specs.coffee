@@ -1,1 +1,1 @@
-# @codekit-append "component-spec.coffee"
+# @codekit-append "chord-spec.coffee"
