@@ -5,3 +5,5 @@ class Chord
 
 	constructor: (options = DEFAULT_OPTIONS) ->
 		{ @name, @formula } = options
+
+window.Chord = Chord
